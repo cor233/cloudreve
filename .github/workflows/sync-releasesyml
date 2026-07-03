@@ -15,7 +15,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          SOURCE_REPO="2dust/v2rayNG"
+          SOURCE_REPO="cloudreve/cloudreve"
           PAGE=1
           PER_PAGE=100
           RELEASES_JSON=""
